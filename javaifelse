@@ -1,0 +1,19 @@
+public class Swicthcase{
+    int choice;
+
+     public static void main(String []args){
+        System.out.println("Pick one : 1.  Hi\t2. HELLO\t3.wassup\t");
+        Scanner s = new Scanner(System.in);
+        choice = s.nextInt();
+        switch(choice)
+        {
+            case 1 : System.out.println("Your a PUTAA");
+                    break;
+            case 2 : System.out.println("You said PUTAAMADRE");
+                    break;
+            case 3 : System.out.println("You said PUTAA SENIAROE");
+                    break;
+            default : System.out.println("Invalid choice.");        
+        }
+     }
+}
